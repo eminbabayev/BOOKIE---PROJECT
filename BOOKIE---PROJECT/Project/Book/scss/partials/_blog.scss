@@ -1,0 +1,144 @@
+#blog{
+    #post-1{
+        position: relative;
+        margin-top: 40px;
+        padding: 45px 50px 25px;
+        border-radius: 6px;
+        background: #ffffff;
+        .post-header{
+            margin-bottom: 30px;
+            .sticky-label{
+                position: absolute;
+                top: -1px;
+                right: 50px;
+                width: 30px;
+                min-width: 30px;
+                max-width: 100px;
+                padding: 5px 12px 0;
+                border-radius: 0;
+                color: #ffffff;
+                background: #ef2e5e;
+                font-size: 10px;
+                font-weight: bold;
+                line-height: 10px;
+                text-align: center;
+                text-transform: uppercase;
+                word-wrap: break-word;
+                font-family: $font-montserrat;
+                &::before{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 0;
+                    width: 0;
+                    height: 0;
+                    border-width: 10px 15px 10px;
+                    border-style: solid;
+                    border-color: #ef2e5e #ef2e5e transparent #ef2e5e;
+                    content: "";
+                }
+            }
+            .time-label{
+                display: block;
+                margin-bottom: 10px;
+                font-family: $font-pt;
+                color: #757575;
+                font-weight: normal;
+                line-height: 1.5;
+                .time{
+                    display: block;
+                    margin-bottom: 10px;
+                    font-family: "PT Serif", serif;
+                    a{
+                        font-size: 16px;
+                        color: #222222;
+                        text-decoration: none;
+                        transition: 0.3s ease;
+                        .published-updated{
+                            color: #a7a7a7;
+                        }
+                    }
+                }
+            }
+            .entry-title{
+                margin: 0 0 5px;
+                padding: 0;
+                color: #222222;
+                font-size: 30px;
+                font-weight: 300;
+                font-family: $font-montserrat;
+                a{
+                    color: #222222;
+                    text-decoration: none;
+                    transition: 0.3s ease;
+                    
+                }
+            }
+            .post-entry{
+                font-family: $font-pt;
+                color: #757575;
+                line-height: 1.5;
+                font-size: 13px;
+                font-style: italic;
+                .post-entry-1{
+                    a{
+                        text-decoration: none;
+                        color: #757575;
+                        &:hover{
+                            color: #222222;
+                            transition: all 0.6s;
+                        }
+                        span{
+
+                        }
+                    }
+                }
+                .post-entry-2{
+                    a{
+                        color: #757575;
+                        text-decoration: none;
+                        &:hover{
+                            color: #222222;
+                            transition: all 0.6s;
+                        }
+                    }
+             
+                }
+            }
+            .entry-image{
+                margin-top: 35px;
+                background: #f5f5f5;
+                text-align: center;
+                border-radius: 2px;
+                img{
+                    width: 100%;
+                    display: inline-block;
+                    max-width: 100%;
+                    height: auto;
+
+                }
+            }
+        }
+        .post-content{
+            p{
+                margin-bottom: 20px;
+                line-height: 1.786em;
+                margin: 0 0 10px;
+                color: #757575;
+
+                font-family: $font-montserrat;
+            }
+            p{
+                margin-bottom: 20px;
+                line-height: 1.786em;
+                margin: 0 0 10px;
+                .read-more-link{
+                    color: #28cdf0;
+                    text-decoration: none;
+                    transition: 0.3s ease;
+                    font-family: $font-montserrat;
+                }
+            }
+        
+        }
+    }
+}

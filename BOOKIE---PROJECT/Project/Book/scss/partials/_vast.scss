@@ -1,0 +1,37 @@
+.vast-detail{
+    padding-top: 260px !important;
+    background-color: #675f74 !important;
+    .vast-title{
+        h2{
+            font-size: 60px;
+            color: #ffffff;
+            line-height: 1;
+            text-align: center;
+            font-family: $font-montserrat;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+    .vast-text{
+        margin-bottom: 35px;
+        p{
+            text-align: center;
+            span{            
+            line-height: 1.786em;
+            font-family: $font-montserrat;
+            color: #ffffff;
+            }
+        }
+    }
+    .vast-link{
+        text-align: center;
+        a{
+            background-color: #2f2b35;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 11px 16px;
+            border-radius: 2em;
+        }
+    }
+}

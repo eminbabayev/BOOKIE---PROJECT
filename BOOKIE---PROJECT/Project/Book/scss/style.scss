@@ -1,0 +1,120 @@
+$font-montserrat:'Montserrat', sans-serif;
+$font-ubuntu:'Ubuntu', sans-serif; 
+$font-poppins:'Poppins', sans-serif;
+$font-changa:'Changa', sans-serif;
+$font-pt:'PT Serif', serif;
+$link-color: #ffffff;
+$green:#2fc42b;
+$sky:#edf7ff;
+$dark:#333;
+$count-icon-gold:#f1e651;
+$count-icon-orange:#ff6c3a;
+$count-icon-pink:#f84685;
+
+
+*{
+    box-sizing: border-box;
+}
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+//INDEX . HTML
+@import 'partials/header';               //Header,navbar in index.html
+@import 'partials/form-section';         //Form section in index.html
+@import 'partials/card-section';         //Card section in index.html
+@import 'partials/idiot-section';        //Idiot section in index.html
+@import 'partials/card-courses';         //Card-Courses section in index.html
+@import 'partials/library';              //Library section in index.html
+@import 'partials/columns';              //Columns section in index.html
+@import 'partials/card-new-books';       //Card new books section in index.html
+@import 'partials/sale-section';         //Sale section in index.html
+@import 'partials/our-blog';             //Our blog section in index.html
+@import 'partials/footer-section';       //Footer section in index.html
+
+
+
+
+
+
+
+
+//INDEX(2) . HTML
+@import 'partials/bring';               //Bring section in index2.html
+@import 'partials/paper';               //Paper section in index2.html
+@import 'partials/learn-more';          //Learn More section in index2.html
+@import 'partials/collection';          //Collection section in index2.html
+@import 'partials/shop-now';            //Shop Now section in index2.html
+@import 'partials/mobile-app';          //Mobile App section in index2.html
+@import 'partials/subscribe';           //Subscribe section in index2.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//INDEX(3) . HTML
+@import 'partials/vast';                //Vast section in index3.html
+@import 'partials/tablet';              //Tablet section in index3.html
+@import 'partials/about-bookie';        //About Bookie section in index3.html
+@import 'partials/genre';               //Genre section in index3.html
+@import 'partials/black-book';          //Black Book section in index3.html
+@import 'partials/phone';               //Phone section in index3.html
+@import 'partials/page-title';          //Page Title section in index3.html
+
+
+
+
+//Bookstore . HTML 
+@import 'partials/filter';               //Filter section in bookstore.html
+@import 'partials/rated';                //Rated section in bookstore.html
+@import 'partials/categories';           //Categories section in bookstore.html
+
+
+
+
+//Blog . HTML
+@import 'partials/blog';                 //Blog Section in blog.html
+
+
+
+//VC - ADD-ONS . HTML
+@import 'partials/text-center';          //Text Center Section in call-to-action.html
+@import 'partials/note';                 //Note Section in call-to-action.html
+@import 'partials/post-grid';            //Post Grid Section add-ons.html
+
+
+
+//My-Account . HTML              
+@import 'partials/login';                //Login Section my-account.html
+
+
+
+
+//Contact . HTML
+@import 'partials/contact';                //Contact Section contact.html
+@import 'partials/map';                //Contact Section contact.html
+
+
+
+
+
+//Responsive in all html page
+@import 'partials/responsive';          //All pages responsive is there
+

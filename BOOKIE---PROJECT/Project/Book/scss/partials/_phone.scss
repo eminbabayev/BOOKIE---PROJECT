@@ -1,0 +1,60 @@
+#phone{
+    padding: 65px 0;
+    .phone-image{
+        img{
+            height: auto;
+    max-width: 100%;
+    margin-left: 40px;
+    vertical-align: top;
+
+        }
+    }   
+    .phone-detail{
+        margin-top: 50px;
+        .phone-text1{
+            p{
+                margin: 0px;
+                text-align: left;
+                line-height: 1.786em;
+                color: #757575;
+               
+                font-family: $font-montserrat;
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+        .phone-title{
+            font-size: 36px;
+            text-align: left;
+            font-family: $font-montserrat;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .phone-text2{
+            p{
+                margin-top: 30px;
+                text-align: left;
+                line-height: 1.786em;
+                color: #757575;
+               
+                font-family: $font-montserrat;
+                font-size: 14px;
+                font-weight: normal;
+                
+            }
+        }
+    }
+    .phone-download{
+        .menu-image{
+    
+            .list-image{
+                display: inline-block;
+                padding: 10px;
+                margin-top: 10px;
+                a{
+
+                }
+            }
+        }
+    }
+}

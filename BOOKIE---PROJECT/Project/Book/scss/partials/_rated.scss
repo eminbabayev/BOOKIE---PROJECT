@@ -1,0 +1,76 @@
+#rated{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    background: #ffffff;
+    font-family: $font-montserrat;
+    font-size: 13px;
+    .rated-detail{
+        .rated-title{
+            margin: 14px 0 20px 0;
+            color: #222222;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+        }
+        .rated-menu{
+            line-height: 1.786em;
+            li{
+                position: relative;
+    margin-bottom: 25px;
+    padding: 0 0 15px 70px;
+    font-family:$font-montserrat;
+    width: 100%;
+    display: inline-block !important;
+                a{
+                  width: 55px;
+                    img{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 50px;
+                        max-width: 50px;
+                        margin: 0 15px 0 0;
+                        height: auto;
+                        box-shadow: none;
+                    }
+                    .product-title{
+                        display: block;
+                        overflow: hidden;
+                        padding-top: 3px;
+                        color: #222222;
+                        font-size: 13px;
+                        font-weight: normal;
+                        line-height: 20px;
+                        white-space: nowrap;
+                        text-transform: capitalize;
+                        text-overflow: ellipsis;
+                        font-family: $font-montserrat;
+                    }
+                }
+                .star-rating{
+                    margin: 5px 0 0;
+                    float: none;
+                    overflow: hidden;
+    position: relative;
+   
+    line-height: 1;
+    font-size: 1em;
+   
+
+                    span{
+                        color: #2f2b35;
+                        width: 100%;
+                    }
+                }
+                .rated-price{
+                    color: #222222;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

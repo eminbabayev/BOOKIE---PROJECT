@@ -1,0 +1,103 @@
+#idiots{
+    background: #ffffff;
+    padding: 80px 0px;
+    margin-top: 10px;
+    .inside{
+        
+    margin-bottom: 10px;
+        .book-label{
+            margin: 0;
+    color: #a7a7a7;
+    font-size: 18px;
+            text-align: justify;
+            font-family: $font-montserrat;
+        }
+        .book-title{
+            
+     margin: 10px 0 0;
+     color: #222222;
+     font-size: 24.4px;
+     line-height: 30px;
+     text-align: justify;
+     font-family: $font-montserrat;
+
+        }
+        .book-author-name{
+            font-family: "PT Serif", serif;
+            font-size: 13px;
+            font-style: italic;
+            text-align: justify;
+            color: #757575;
+        }
+    }
+    .inside{
+  
+        margin-bottom: 25px;
+        p{
+            margin-bottom: 20px;
+            line-height: 1.786em;
+            font-family: "PT Serif", serif;
+            font-size: 15px;
+            color: #757575;
+            text-align: justify;
+        }
+    }
+    .book-button-wrap{
+        margin-bottom: 20px;
+        line-height: 1.786em;
+        .book-button{
+            border: #2f2b35;
+    color: #ffffff;
+    background: #2f2b35;
+    font-family: "Montserrat", sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    &:hover{
+        border-color: #5a5462;
+    color: #ffffff;
+    background: #5a5462;
+    }
+        }
+    }
+
+    
+
+    .inside{
+        text-align: center;
+        .book-image{
+          
+        }
+    }
+
+    .third-idiot{
+    position: relative;        
+        img{
+            position: relative;
+            width: 100%;
+            border-radius: 8px;
+            width: 339;
+            
+        }
+        .third-inner{
+            position: absolute;
+            left: 40px;
+            bottom: 50px;
+            .book-badge{
+                padding: 2px 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+            }
+            .book-title{
+             
+    margin: 10px 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-family:$font-montserrat;
+            }
+        }
+    }
+}

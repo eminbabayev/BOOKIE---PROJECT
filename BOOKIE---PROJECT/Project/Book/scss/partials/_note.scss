@@ -1,0 +1,38 @@
+#note{
+    padding: 70px 0;
+    .note-detail{
+        h3{
+            font-weight: normal;
+            line-height: 1.35;
+            margin-bottom: 20px;
+            color: #222222;
+            font-family: $font-montserrat;
+            font-size: 24px;
+        }   
+        p{
+            margin-bottom: 20px;
+            line-height: 1.786em;
+            color: #757575;
+            font-family: $font-montserrat;
+            font-family: 12px;
+        }
+        ul{
+            margin-left:40px;
+            line-height: 1.786em;
+            li{
+                color: #757575;
+                font-family: $font-montserrat;
+                list-style-type: disc;
+                font-size: 14px;
+                font-weight: normal;
+                ul{
+                    margin-left: 40px;
+                    li{
+                        list-style-type: circle;
+                  
+                    }
+                }
+            }
+        }
+    }
+}

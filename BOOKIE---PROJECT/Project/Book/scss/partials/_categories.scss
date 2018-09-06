@@ -1,0 +1,40 @@
+#categories{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    background: #ffffff;
+    font-family: $font-montserrat;
+    font-size: 13px;
+    .categories-detail{
+        .categories-title{
+            margin: 14px 0 20px 0;
+    color: #222222;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+        }
+        .product-categories{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 1.786em;
+            li{
+                list-style: none;
+                line-height: 1.786em;
+                margin: 10px 0;
+    padding: 0;
+    text-transform: capitalize;
+                a{
+                    color: #222222;
+                    text-decoration: none;
+                    transition: 0.3s ease;
+                }
+            }
+        }
+    }
+}
+.children{
+    margin: 0 0 0 20px;
+    line-height: 1.786em;
+}

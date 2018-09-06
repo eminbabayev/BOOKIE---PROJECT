@@ -1,0 +1,65 @@
+#text-center{
+    background-image: url('../img/library/library.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    padding: 100px 0;
+    .text-center-detail{
+        text-align: center;
+        .cta-title{
+            color: #ffffff;
+            position: relative;
+            z-index: 9;
+            font-size: 36px;
+            line-height: 40px;
+            font-family: $font-montserrat;
+        }
+        .cta-text{  
+            color: #9c9c9c;
+            font-size: 18px;
+            font-weight: lighter;
+            line-height: 30px;
+            font-family: $font-montserrat;
+        }
+        .cta-button{
+            background-color: #ecad25;
+            color: #ffffff;
+            display: inline-block;
+            margin: 20px 0 0;
+            padding: 0 40px;
+            border: 2px solid #28cdf0;
+            border: none;
+            border-radius: 40px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $font-montserrat;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+            transition: 0.3s ease;
+            &:hover{
+                background-color: #dda326;
+            }
+        }
+    }
+}
+
+.cta-link{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    &::after{
+        margin-left: 10px;
+    font-family: "FontAwesome";
+    content: "\f178";
+    }
+    &:hover{
+        color: #2a2a2a;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookie-Just another WordPress site</title>
+    <link rel="icon" href="img/icon/thumb.png" type="image/png">
+    <link rel='stylesheet' id='toko-google-fonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%7CPT+Serif&#038;ver=1.0.0'
+        type='text/css' media='all' />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <!-- <div class="preloader"></div> -->
+
+
+
+    <!-- Start Header Section -->
+    <header id="navbar">
+
+        <nav class=" position-relative mt-0 pb-4 navbar w-100 justify-content-center navbar-expand-md navbar-fixed-top navbar-light mynav-bg"
+            style=" background: #2f2b35;">
+
+            <div class="mynav d-flex justify-content-between">
+                <a class="nav-brand" href="#">
+                    <h3 class="bookie">Bookie</h3>
+                    <p class="just-bookie">Just another WordPress site</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="my-toggler"></span>
+                    <span class="my-toggler"></span>
+                    <span class="my-toggler"></span>
+                </button>
+
+                <div class="collapse justify-content-center mycollap navbar-collapse">
+                    <ul class="navbar-nav d-flex justify-content-between mt-4">
+
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link mydropdown-toggle d-flex justify-content-between" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Home
+
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="index.html">HOMEPAGE #1</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="index2.html">HOMEPAGE #2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">HOMEPAGE #3</a>
+                                <div class="dropdown-divider"></div>
+
+                            </div>
+                            <span class="fa fa-angle-down  dropdown-btn"></span>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">
+                                BOOKSTORE
+                            </a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">
+                                BLOG
+                            </a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                VC ADD-ONS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">VC-CALL TO ACTION</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">VC-PRODUCTS</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">VC-PRODUCT
+                                    <br> CATEGORIES
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">VC-POST GRID</a>
+                                <div class="dropdown-divider"></div>
+
+                            </div>
+                            <span class="fa fa-angle-down  dropdown-btn"></span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">
+                                MY ACCOUNT
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="basket">
+                    <a href="#" class="basket-link">
+                        <i class="fa fa-shopping-basket"></i>
+                        <span class="badge badge-dark">0</span>
+                    </a>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </nav>
+
+
+
+
+    </header>
+    <!-- //End Header Section -->
+
+
+    <!-- Start Page Title Section -->
+    <section id="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Bookstore</h1>
+                    <nav class="breadcrumb-our">
+                        <a href="index.html">Home</a>
+                        / Blog(2)
+                    </nav>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Stop Page Title Section -->
+
+
+    <!-- //Start Form Section -->
+    <section id="form-section">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="form-group">
+                            <input type="text" placeholder="Book Title" class="input-book">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="form-group">
+                            <select name="product_cat" class="form-control">
+                                <option value="0">Book Category</option>
+                                <option class="level-0" value="drama">Drama</option>
+                                <option class="level-1" value="inspiration">&nbsp;&nbsp;&nbsp;Inspiration</option>
+                                <option class="level-1" value="love-story">&nbsp;&nbsp;&nbsp;Love Story</option>
+                                <option class="level-0" value="life-style">Life Style</option>
+                                <option class="level-1" value="business">&nbsp;&nbsp;&nbsp;Business</option>
+                                <option class="level-1" value="culture">&nbsp;&nbsp;&nbsp;Culture</option>
+                                <option class="level-0" value="science">Science</option>
+                            </select>
+                            <i class="select-arrow fa fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="form-group">
+                            <select name="book_author" id="book_author" class="form-control">
+                                <option value="0">Book Author</option>
+                                <option class="level-0" value="atkia">Atkia</option>
+                                <option class="level-0" value="brian-owell">Brian O’Well</option>
+                                <option class="level-0" value="saifudin-a">Saifudin A.</option>
+                                <option class="level-0" value="sarfaraz">Sarfaraz</option>
+                            </select>
+                            <i class="select-arrow fa fa-angle-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="form-group">
+                            <input type="hidden" name="post_type" value="product" class="input-product">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa fa-search"></i> &nbsp; Find Book </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- //End Form Section -->
+
+
+
+    <!-- Start Blog Section -->
+    <section id="blog" style=" background: #edf3f4;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <article id="post-1">
+                        <div class="post-header">
+                            <span class="sticky-label">Sticky</span>
+                            <span class="time-label">
+                                <span class="time">
+                                    <a href="#">
+                                        <time class="published-updated" datetime="2015-06-28T05:47:43+00:00">June 28, 2015</time>
+                                    </a>
+                                </span>
+                            </span>
+                            <h2 class="entry-title">
+                                <a href="#">Blogging And How You Can Get A Lot From It</a>
+                            </h2>
+                            <div class="post-entry">
+                                Posted
+                                <span class="post-entry-1">by
+                                    <a href="#" class="post-entry-link1">
+                                        <span>tokopressdemo</span>
+                                    </a>
+                                </span>
+                                <span class="post-entry-2">under
+                                    <a href="#">Updates</a>
+                                </span>
+                            </div>
+                            <figure class="entry-image">
+                                <img width="748" height="282" src="img/post/post-1.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="post-content">
+                            <p>Whether you're just looking to type about a hobby you have or if you want to attempt to run a
+                                business, starting a blog might be worthy of your consideration. Before you get started,
+                                first take a few minutes to read these expert-provided tips below. Once you learn about blogging,
+                                the process becomes a lot simpler. Create a blogroll. A blogroll is a list of other blogs
+                                in your niche that you find valuable. Creating such a list increases your blog's value to
+                                readers, as they may be able to find content that they couldn't find on your blog. If...</p>
+                                <p>
+                                        <a href="#" rel="bookmark" class="read-more-link">
+                                            Continue Reading → 
+                                        </a>
+                                    </p>
+                        </div>
+                    </article>
+
+                    <article id="post-1">
+                            <div class="post-header">
+                                
+                                <span class="time-label">
+                                    <span class="time">
+                                        <a href="#">
+                                            <time class="published updated" datetime="2015-06-28T05:47:43+00:00">June 28, 2015</time>
+                                        </a>
+                                    </span>
+                                </span>
+                                <h2 class="entry-title">
+                                    <a href="#">Blogging And How You Can Get A Lot From It</a>
+                                </h2>
+                                <div class="post-entry">
+                                    Posted
+                                    <span class="post-entry-1">by
+                                        <a href="#" class="post-entry-link1">
+                                            <span>tokopressdemo</span>
+                                        </a>
+                                    </span>
+                                    <span class="post-entry-2">under
+                                        <a href="#">Updates</a>
+                                    </span>
+                                </div>
+                                <figure class="entry-image">
+                                    <img width="748" height="282" src="img/post/post-1.jpg" alt="">
+                                </figure>
+                            </div>
+                            <div class="post-content">
+                                <p>Whether you're just looking to type about a hobby you have or if you want to attempt to run a
+                                    business, starting a blog might be worthy of your consideration. Before you get started,
+                                    first take a few minutes to read these expert-provided tips below. Once you learn about blogging,
+                                    the process becomes a lot simpler. Create a blogroll. A blogroll is a list of other blogs
+                                    in your niche that you find valuable. Creating such a list increases your blog's value to
+                                    readers, as they may be able to find content that they couldn't find on your blog. If...</p>
+                                    <p>
+                                            <a href="#" rel="bookmark" class="read-more-link">
+                                                Continue Reading → 
+                                            </a>
+                                        </p>
+                            </div>
+                        </article>
+
+                        <article id="post-1">
+                                <div class="post-header">
+                                
+                                    <span class="time-label">
+                                        <span class="time">
+                                            <a href="#">
+                                                <time class="published updated" datetime="2015-06-28T05:47:43+00:00">June 28, 2015</time>
+                                            </a>
+                                        </span>
+                                    </span>
+                                    <h2 class="entry-title">
+                                        <a href="#">Blogging And How You Can Get A Lot From It</a>
+                                    </h2>
+                                    <div class="post-entry">
+                                        Posted
+                                        <span class="post-entry-1">by
+                                            <a href="#" class="post-entry-link1">
+                                                <span>tokopressdemo</span>
+                                            </a>
+                                        </span>
+                                        <span class="post-entry-2">under
+                                            <a href="#">Updates</a>
+                                        </span>
+                                    </div>
+                                    <figure class="entry-image">
+                                        <img width="748" height="282" src="img/post/post-1.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="post-content">
+                                    <p>Whether you're just looking to type about a hobby you have or if you want to attempt to run a
+                                        business, starting a blog might be worthy of your consideration. Before you get started,
+                                        first take a few minutes to read these expert-provided tips below. Once you learn about blogging,
+                                        the process becomes a lot simpler. Create a blogroll. A blogroll is a list of other blogs
+                                        in your niche that you find valuable. Creating such a list increases your blog's value to
+                                        readers, as they may be able to find content that they couldn't find on your blog. If...</p>
+                                        <p>
+                                                <a href="#" rel="bookmark" class="read-more-link">
+                                                    Continue Reading → 
+                                                </a>
+                                            </p>
+                                </div>
+                                
+                            </article>
+                            <hr style="border: dashed 0.2px #cccccc; margin-top: 60px;">
+                            <nav aria-label="...">
+                                <ul class="pagination" style="padding: 20px;">
+                                  <li class="page-item">
+                                    <a class="page-link" href="blog.html">Previous</a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="blog.html">1</a></li>
+                                  <li class="page-item active">
+                                    <a class="page-link" href="blog2.html">
+                                      2
+                                      <span class="sr-only">(current)</span>
+                                    </a>
+                                    
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="blog3.html">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="blog4.html">4</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="blog3.html">Next</a>
+                                  </li>
+                                </ul>
+                              </nav>
+                </div>
+                <div class="col-md-4">
+                    <aside id="sidebar">
+
+
+                        <!-- Start Rated Section -->
+                        <section id="rated" style="margin-top:40px;">
+                            <div class="rated-detail">
+                                <h3 class="rated-title">Top Rated Products</h3>
+                                <ul class="rated-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- Stop Rated Section -->
+
+                         <!-- Start Recent Post Section -->
+                         <section id="categories">
+                            <div class="categories-detail">
+                                <h3 class="categories-title">RECENT POSTS</h3>
+                                <ul class="product-categories">
+                                    <li class="cat-item">
+                                        <a href="#">Blogging And How You Can Get A Lot From It
+                                            
+                                        </a>
+                                       
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Building A Brighter Future With A Successful Blog</a>
+                                    
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Everything You Need To Know About Blogging</a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Excellent Blogging Tips: A Smart Place To Start!</a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Expert Advice On Building A Better Blogging Plan</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </section>
+                        <!-- Stop Recent Post Section  -->
+
+                        <!-- Start Categories Section -->
+                        <section id="categories">
+                            <div class="categories-detail">
+                                <h3 class="categories-title">Categories</h3>
+                                <ul class="product-categories">
+                                    <li class="cat-item">
+                                        <a href="#">News
+                                            
+                                        </a>
+                                       
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Pre Orders</a>
+                                    
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Promotions</a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Releases</a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">Updates</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </section>
+                        <!-- Stop Categories Section  -->
+
+
+                        <!-- Start Rated Section -->
+                        <section id="rated">
+                            <div class="rated-detail">
+                                <h3 class="rated-title">Products</h3>
+                                <ul class="rated-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img width="250" height="333" src="img/books/book-04.jpg" alt="">
+                                            <span class="product-title">The Glassblower</span>
+                                        </a>
+                                        <div class="star-rating">
+                                            <span style="width:100%">
+                                                ::before Rated
+                                                <strong class="rating">5.00</strong> out of 5</span>
+                                        </div>
+                                        <span class="rated-price">$20.00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- Stop Rated Section -->
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stop Bookstore Section -->
+
+    <!-- Start Footer Section -->
+    <footer id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-up">
+                        <ul class="menu-footer">
+                            <li class="list-footer">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="list-footer">
+                                <a href="">Blog</a>
+                            </li>
+                            <li class="list-footer">
+                                <a href="">About Us</a>
+                            </li>
+                            <li class="list-footer">
+                                <a href="">TOS</a>
+                            </li>
+                            <li class="list-footer">
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-down">
+                        <p>Copyright © Bookie WordPress Theme</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Stop Footer Section -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

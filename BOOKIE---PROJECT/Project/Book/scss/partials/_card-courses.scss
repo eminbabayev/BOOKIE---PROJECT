@@ -1,0 +1,199 @@
+#card-courses-section{
+    background-color: #2f2b35 !important;
+    padding: 70px 0px;
+    .card-spacing{
+        padding: 0 8px;
+        &:first-child{
+            padding-left: 0;
+        }
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+    .divider-inner{
+        margin: 0;
+        padding: 10px 0;
+        .toko-section-title{
+            font-size: 26px;
+    color: #96919d;
+    text-align: center;
+    font-family: $font-montserrat;
+    font-weight: 400;
+    font-style: normal;
+        }
+    }
+    .card{
+        // position: relative; 
+        // width: 25%;
+        // margin: 15px !important;
+        list-style: none;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+        padding: 10px 10px 0 10px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        text-decoration: none;
+    .image-card{
+        margin: 0 auto;
+       width: 100%;
+       height: 333px;
+        position: relative;
+       h3{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: #ffffff;
+        background: #28cdf0;
+        overflow: hidden;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+           .count{
+            color: #ffffff;
+    background: #28cdf0;
+    padding: .2em;
+            }
+        }
+        img{
+            // box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+        }
+    }
+    .product-cat-bottom{
+        position: relative;
+    padding: 20px 10px;
+        .product-cat-description{
+            max-width: 68%;
+            display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    color: #2f2b35;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.786em;
+        }
+        .button-alt{
+            border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #2f2b35;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    padding: 6px 19px;
+    font-size: 10px;
+    text-decoration: none;
+    &:hover{
+        color: #ffffff;
+        background: #5a5462;
+
+        transition: all 1s;
+    }
+        }
+    }
+
+       
+        .card-img-top{
+            margin: 0;
+            border-radius: 2px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+        }
+        .card-body{
+            position: relative;
+            padding: 20px 30px 10px;
+            text-align: center;
+            transition: background 1s;
+           
+            .card-title{
+                padding: .5em 0;
+                margin: 0;
+                font-size: 0.9em;
+                color: #222222;
+                font-family: $font-montserrat;
+            }
+            .person-name{
+                display: block;
+                position: relative;
+                color: #a7a7a7;
+                font-size: 12px;
+                font-style: italic;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+            .price{
+
+                position: relative;
+                margin: 0;
+                padding: 10px 0 0;
+                color: #222222;
+                font-family: "Montserrat", sans-serif;
+                font-size: 20px;
+            
+                del{
+                    font-size: 14px;
+                    line-height: normal;
+                    color: #bfc7c8;
+                    .woocommerce-Price-amount{
+
+                    }
+                }
+                ins{
+                    background: 0 0;
+                    font-weight: 700;
+                    display: inline-block;
+                    font-weight: normal;
+                    
+                    .woocommerce-Price-amount{
+                        .woocommerce-Price-currencySymbol{
+
+                        }
+                    }
+                }
+            }
+    
+        }
+        .card-footer{
+            display: inline-block;
+            padding: 0;
+            background: transparent;
+            border: 1px solid gray;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            
+      
+            a{
+                // margin-right: 5px;
+                display: inline-block;
+                color: #3c3d41;
+                padding:5px 28px;
+                font-size: 12px;
+                display: inline-block;
+                text-align: center;
+                letter-spacing: normal;
+                text-transform: uppercase;
+                text-decoration: none;
+                &:first-child{
+                    border-right: 1px solid #bfc7c8;
+                }
+                i{
+                    display: inline-block;
+                    margin-right: 5px;
+                    color: #acb3b4;
+                    font-size: 16px;
+                    vertical-align: bottom;
+                   
+                }
+             
+            }
+            
+        }
+    }
+}
+.click{
+    text-align: center;
+}

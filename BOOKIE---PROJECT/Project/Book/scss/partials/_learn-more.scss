@@ -1,0 +1,35 @@
+#learn-more{
+    padding: 63px 0;
+    .learn-more-detail{
+        .learn-more-title{
+            h2{
+                font-size: 14px;
+                color: #2f2b35;
+                text-align: left;
+                font-family:$font-montserrat;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+        .learn-more-text{
+            margin-top: 20px !important;
+            p{
+                line-height: 1.786em;
+                color: #757575;
+                font-family: $font-montserrat;
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+    }
+    .learn-more-button{
+        text-align: center;
+        margin-top: 25px;
+        a{
+            border-radius: 2em;
+            font-size: 12px;
+            padding: 8px 12px;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+#page-title{
+    padding: 65px 0;
+    background-color: #515570;
+    background-size: cover;
+    text-align: center;
+    h1{
+        margin: 0;
+        padding: 5px 0;
+        color: #ffffff;
+        font-size: 45px;
+        font-weight: normal;
+        font-family: $font-montserrat;
+        line-height: 80px;
+        text-transform: capitalize;
+    }
+    .breadcrumb-our{
+        margin: 0;
+        padding: 10px 0 5px;
+        color: #ffffff;
+        background: none;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 20px;
+        a{
+            color: #ffffff;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+    }
+        
+    
+}

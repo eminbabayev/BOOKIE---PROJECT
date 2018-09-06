@@ -1,0 +1,39 @@
+#collection{
+    background-image: url('../img/collection/collection.jpg');
+    height: 282px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .collection-text{
+        padding: 100px 0;
+        text-align: left;
+        .collection-title{
+     color: #222222; 
+     position: relative;
+     z-index: 9;
+     margin: 0;
+     font-size: 36px;
+     line-height: 40px;
+    font-family: $font-montserrat;
+        }
+        .collection-link{
+            display: block;
+    position: relative;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s ease;
+        &::after{
+            margin-left: 10px;
+            font-family: "FontAwesome";
+            content: "\f178";
+        }
+        &:hover{
+            color: #2a2a2a;
+            text-decoration: none;
+        }
+        }
+    }
+}

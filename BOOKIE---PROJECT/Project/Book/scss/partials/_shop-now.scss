@@ -1,0 +1,118 @@
+#shop-now{
+    padding: 60px 0;
+    .shop-now-image{
+        img{
+
+        }
+    }
+    .shop-now-detail{
+           position: static;
+           padding: 0;
+        .shop-now-badge{
+        background-color: #27c8ea;
+        color: #ffffff;
+        padding: 2px 10px;
+        border-radius: 6px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        }
+        .shop-now-title{
+            color: #2f2b35;
+            margin: 10px 0;
+            font-weight: normal;
+            font-size: 18px;
+            font-family: $font-montserrat;
+            line-height: 24px;
+        }
+        .shop-now-text{
+            margin: 0;
+            font-family:$font-pt;
+            font-size: 14px;
+            color: #757575;
+            p{
+                margin-bottom: 20px;
+                line-height: 1.786em;
+            }
+        }
+        .shop-now-button-wrap{
+            margin-bottom: 20px;
+            line-height: 1.786em;
+            .shop-now{
+                padding: 4px 20px;
+                border: 1px solid #cdcdcd;
+                color: #2f2b35;
+                background: none;
+                font-size: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                line-height: 20px;
+                border-radius: 20px;
+                font-family: $font-montserrat;
+                &:hover{
+                    border: 1px solid #2f2b35;
+                    color: #ffffff;
+                    background: #2f2b35;
+                }
+            }
+        }
+    }
+    .shop-now-details{
+        text-align: right;
+        .shop-now-badge{
+            background-color: #2750ea;
+            color: #ffffff;
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: right;
+        }
+        .shop-now-title{
+            color: #2f2b35;
+            margin: 10px 0;
+            font-weight: normal;
+            font-size: 18px;
+            font-family: $font-montserrat;
+            line-height: 24px;
+        }
+        .shop-now-text{
+            margin: 0;
+            font-family:$font-pt;
+            font-size: 14px;
+            color: #757575;
+            p{
+                margin-bottom: 20px;
+                line-height: 1.786em;
+            }
+        }
+        .shop-now-button-wrap{
+            margin-bottom: 20px;
+            line-height: 1.786em;
+            .shop-now{
+                padding: 4px 20px;
+                border: 1px solid #cdcdcd;
+                color: #2f2b35;
+                background: none;
+                font-size: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                line-height: 20px;
+                border-radius: 20px;
+                font-family: $font-montserrat;
+                &:hover{
+                    border: 1px solid #2f2b35;
+                    color: #ffffff;
+                    background: #2f2b35;
+                }
+            }
+        }
+    }
+    .shop-now-image{
+        img{
+
+        }
+    }
+   
+}

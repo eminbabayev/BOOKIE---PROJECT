@@ -1,0 +1,25 @@
+#bring{
+    padding: 70px 0;
+    .bring-about{
+        text-align: center;
+        .bring-title{
+            h1{
+                line-height: 40px;
+                color: #222222;
+                font-family: $font-montserrat;
+                font-size: 36px;
+            }
+        }
+        .bring-text{
+            h2{
+                font-size: 18px;
+                color: #a7a7a7;
+                text-align: center;
+                font-family: $font-pt;
+                font-weight: 400;
+                font-style: italic;
+                line-height: 1.35;
+            }
+        }
+    }
+}

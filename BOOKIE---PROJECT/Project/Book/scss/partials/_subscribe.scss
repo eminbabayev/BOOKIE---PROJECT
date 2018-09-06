@@ -1,0 +1,33 @@
+#subscribe{
+    padding: 50px 0;
+    background-color: #27c8ea !important;
+ .subscribe-icon{
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+     i{
+        color: #ffffff;
+        font-size: 80px;
+     }
+ }
+ .subscribe-heading{
+    display: inline-block;
+    vertical-align: middle;
+     h2{
+        margin: 0;
+        color: #ffffff;
+        font-size: 26px;
+        line-height: 26px;
+        font-family: $font-montserrat;
+        font-weight: normal;
+     }
+     p{
+        margin-bottom: 0;
+        color: #d2eff5;
+        font-family: $font-pt;
+        font-size: 17px;
+        font-style: italic;
+        line-height: 20px;
+     }
+ }   
+}

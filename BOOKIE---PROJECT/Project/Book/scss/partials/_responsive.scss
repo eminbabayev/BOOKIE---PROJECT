@@ -1,0 +1,334 @@
+// Start Header Responsive
+@media screen and(min-width:992px){
+    .dropdown-menu{
+        display: block !important;
+        visibility: hidden !important;
+        padding:0;
+        border-top:2px solid #292929;
+        border-radius: 0;
+        margin-top: 20px;
+        transition: all 0.3s;   
+        opacity: 0 !important;
+        transform: scale(1.1);
+        transition: all 1s;
+        .dropdown-item{
+            width: 100%;
+        }
+        .fa-angle-down:before {
+            content: "\f107";
+            position: absolute;
+            left: 0;
+        }
+        .nav-link{
+            text-transform: uppercase;
+        }
+        
+    }
+   
+    .dropdown:hover>.dropdown-menu {  
+        transition: all 0.3s !important;
+        margin-top: 0; 
+        visibility:visible !important;
+        opacity: 1 !important;
+   
+} 
+.dropdown-item{
+    background-color: #28cdf0;
+    color: #ffffff;
+}
+
+
+
+}
+
+@media screen and (max-width:1140px){
+   
+    nav{
+       top: 0px;
+    }
+    .nav-item{
+        margin-right: 0px !important;
+        margin-left: 20px !important;       
+    }
+    .search-icon{
+        display: none;
+    }
+    nav ul li:last-child a{
+        padding-right: 0px !important;
+    }
+    
+}
+@media screen and (max-width:1025px){
+    .mydropdown-toggle::after{
+        display: none;  
+    }
+    .nav-link{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+}
+
+   
+    @media screen and (max-width:992px){
+        .nav-item{
+            &::before{
+                content: none !important;
+            }
+            &::after{
+                content: none !important;
+            }
+        }
+        .mycollap{
+            overflow: scroll;
+            height: 311px;
+        }
+        .dropdown-menu{
+            opacity: 1 !important;
+            width: 100% !important;
+            
+        }
+        .mydropdown-toggle-inner{
+            &::after{
+                content: "" !important;
+            }
+        }
+        .dropdown-inner{
+            span{
+                top:10px !important;
+            }
+        }
+        .nav-link{
+            background: #333;
+            color: #9d9d9d !important;
+        }
+        .dropdown-item{
+            padding: 7px !important;
+            font-size: 13px !important;
+            background: #2f2b35;
+            text-indent: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+         
+        }
+        .navbar-nav{
+     
+            border-top: none;
+            margin-top: 10px;
+            margin-bottom: 25px;
+            .nav-item{
+            
+                margin-left: 0px !important;
+                .nav-link{
+                    padding: 7px !important;
+                    font-size: 13px !important;
+                    background: #2f2b35;
+                    text-indent: 10px;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                    
+                }
+                .dropdown-btn{
+                    display: block !important;
+                }
+                .mydropdown-toggle::after{
+            
+                }
+                    
+                .dropdown-menu{
+                    margin-top:0 !important;
+                    border: none !important;
+                  
+               .dropdown-item{
+                border-top: 1px solid rgba(255,255,255,1) !important;
+                margin-left: 0px !important;
+                width: none !important;
+                color:white;
+                padding: 12px 12px !important; 
+               }
+            .dropdown-divider{
+                display: none;
+            } }
+
+            }
+        }  
+        .basket{
+            position: relative;
+            margin-left: 13px;
+        }
+        .mynav{
+            width: 750px !important;
+        }
+
+        
+    }
+    @media screen and (max-width:768px){
+       
+      
+      .inside{
+          text-align: center;
+      }
+      .nav-brand{
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+      .d-flex{
+        width: 100%;
+        justify-content: space-between;
+      }
+      .bookie{
+          padding-top: 0px !important;
+      }
+      .nav-link{
+        padding: 7px !important;
+        font-size: 13px !important;
+        background: #2f2b35;
+        text-align: center !important;
+        text-indent: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        
+    }
+    .dropdown-item .show > .nav-link,
+    .active{
+    
+    background: black !important;
+    color: white !important;
+    text-align: center !important;
+    
+    }
+    }
+    //Finish Header Responsive
+
+
+   //Start Card Section Responsive
+    @media screen and (max-width:1200px){
+        .card{
+            .image-card{
+                width:200px !important;
+                height: 266px !important;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+        #card-section .card .card-footer a{
+            padding: 5px 14px;
+        }
+    }
+    @media screen and (max-width:992px){
+        .card{
+            .image-card{
+                width:145px !important;
+                height: 193.33px !important;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+        #card-section .card .card-footer a {
+            padding: 5px 0px;
+        }
+    }
+    @media screen and (max-width:769px){
+        
+       
+        .my-fluid{
+            // width: 100% !important;
+            // padding-right: 15px;
+            // padding-left: 15px;
+            // margin-right: 0;
+            // margin-left: 0;
+            // max-width:100% !; 
+            .card-spacing{
+                padding: 8px !important;
+            }
+        }
+    } 
+    @media screen and (max-width:767px){
+        .card{
+            .image-card{
+                width: 100% !important;
+                height: 444px !important;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+        #card-section .card .card-footer a {
+            padding: 5px 0px;
+        }
+    }
+    @media screen and (max-width:500px){
+        .card-spacing{
+            width: 100% !important;
+            .card{
+                .image-card{
+                    // margin:0 !important;
+                   max-width: 100%!important;
+                    height: 100% !important;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+   //Stop Card Section Responsive
+ 
+
+
+
+
+   //Start Sale Section 
+    @media screen and (max-width:768px){
+        #sale-section .sale-book .sale-image img {
+            margin-top: 40px;
+        }
+    }
+   //Stop Sale Section
+   
+
+
+   @media screen and (max-width: 1200px){
+#card-new-books-section .card .card-footer a {
+    padding: 5px 21px;
+}
+   }
+
+   @media screen and (max-width:992px){
+    #card-new-books-section .card .card-footer a {
+        padding: 5px 6px;
+    }
+    .navbar-toggler{
+        display: block !important;
+        margin-right: 23px;
+    }
+   .nav-brand .collapse{
+        display: none!important;
+    
+    }
+    .inside{
+        text-align: center !important;
+        
+        
+    }
+    .carousel_title{
+        font-size: 60px !important;
+        text-align: center !important;
+
+    }
+    .dropdown-item .show > .nav-link,
+.active{
+
+background: black !important;
+color: white !important;
+
+}
+       }
+       @media screen and (max-width:769px){
+
+        #card-new-books-section .card .card-footer a {
+            padding: 5px 30px;
+        }
+    }
+ 
